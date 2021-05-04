@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
@@ -63,3 +63,6 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 gem 'activerecord-session_store'
+gem "paperclip", "~> 6.0.0"
+gem 'carrierwave'
+gem 'jquery-rails'
